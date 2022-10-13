@@ -5,3 +5,34 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/*----------
+  HEADER
+-----------*/
+
+header{
+    height: 5rem;
+    background-color: aqua;
+}
+
+/*----------
+  ASIDE
+-----------*/
+
+aside{
+    width: 9.375rem;
+    height: calc(100vh - 5rem);
+    background-color: blue; 
+}
+
+/*----------
+  MAIN
+-----------*/
+
+main{
+    width: calc(100vw - 9.375rem);
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
