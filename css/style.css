@@ -78,4 +78,10 @@ main{
   background-color: #1c71e8;
 }
 
+.debug-sx{
+  background-color: aquamarine;
+}
 
+.debug-dx{
+  background-color: aqua;
+}
