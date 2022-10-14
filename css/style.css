@@ -3,7 +3,8 @@
 -----------*/
 
 body{
-    font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*----------
@@ -11,6 +12,7 @@ body{
 -----------*/
 
 header{
+  background-color: white;
   height: 3.75rem;
   z-index: 100;
 }
@@ -22,7 +24,38 @@ header{
 .ms-logo-header{
   width: 4.6875rem;
   padding-right: 1.25rem;
-} 
+}
+
+.ms-search-bar{
+  background-color: lightgrey;
+  border: none;
+  border-radius: .3125rem;
+}
+
+.ms-search-input{
+  width: 100%;
+  background-color: lightgray;
+  border: none;
+}
+
+.ms-search-button{
+  border: none;
+  background-color: lightgray;
+  border-radius: .3125rem;
+}
+
+.ms-header-icon{
+  font-size: .75rem;
+}
+
+.ms-header-btns{
+  border: none;
+  background-color: white;
+}
+
+.notifications-icon{
+  color: #ff8f00;
+}
 
 /*----------
   ASIDE
@@ -31,7 +64,7 @@ header{
 aside{
   width: 4.6875rem;
   height: calc(100vh - 3.75rem);
-  background-color: #051e34; 
+  background-color: #051e34;
 }
 
 .ms-aside-row{
@@ -81,12 +114,4 @@ main{
 .main-head{
   color: white;
   background-color: #1c71e8;
-}
-
-.debug-sx{
-  background-color: aquamarine;
-}
-
-.debug-dx{
-  background-color: aqua;
 }
