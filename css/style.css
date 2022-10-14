@@ -19,6 +19,11 @@ header{
   height: 3.75rem;
 }
 
+.ms-logo-header{
+  width: 4.6875rem;
+  padding-right: 1.25rem;
+} 
+
 /*----------
   ASIDE
 -----------*/
