@@ -130,3 +130,11 @@ main{
   color: white;
   background-color: #1c71e8;
 }
+
+.ms-mine-badge{
+  font-size: .75rem;
+  color: white;
+  background-color: #185bb9;
+  border-radius: 3.125rem;
+  object-fit: 1;
+}
