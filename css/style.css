@@ -3,7 +3,7 @@
 -----------*/
 
 body{
-  background-color: #f8f9fa;
+  background-color: #f8f8f8;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -137,4 +137,39 @@ main{
   background-color: #185bb9;
   border-radius: 3.125rem;
   object-fit: 1;
+}
+
+.ms-main-table{
+  border: .0625rem solid lightgray;
+  border-radius: .625rem;
+}
+
+.ms-off-canvas-btn{
+  background-color: white;
+  color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: .3125rem;
+}
+
+.ms-off-canvas-action{
+  padding: .4375rem .4375rem;
+}
+
+.ms-table-head-text{
+  font-size: .75rem;
+}
+
+.ms-table-img{
+  width: 1.5625rem;
+}
+
+.ms-table-class-name{
+  font-weight: lighter;
+  padding-left: .625rem;
+}
+
+.ms-table-buttons{
+  background-color: white;
+  color: #6c757d;
+  border: .0625rem solid #6c757d;
 }
