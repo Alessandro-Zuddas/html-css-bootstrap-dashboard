@@ -57,11 +57,24 @@ header{
   color: #ff8f00;
 }
 
+.ms-search-input:active{
+  border: none;
+}
+
+.ms-logo-header:hover{
+  transform: scale(1.1);
+}
+
+.ms-logo-header-big:hover{
+  transform: scale(1.1);
+}
+
 /*----------
   ASIDE
 -----------*/
 
 aside{
+  background-image: url(../img/sidebar-bg.png);
   width: 4.6875rem;
   height: calc(100vh - 3.75rem);
   background-color: #051e34;
@@ -83,6 +96,7 @@ aside{
 .ms-nav-link-top{
   display: flex;
   justify-content: center;
+  width: 100%;
   text-decoration: none;
   color: white;
 }
@@ -97,15 +111,21 @@ aside{
 
 .ms-aside-bottom{
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   height: 50%;
 }
 
 .ms-nav-link-bottom{
+  width: 100%;
   text-decoration: none;
   color: white;
+}
+
+.ms-nav-link-top:hover, .ms-nav-link-bottom:hover{
+  color: white;
+  background-color: rgba(154, 154, 154, 0.5);
 }
 
 /* Responsive md  */
@@ -172,4 +192,8 @@ main{
   background-color: white;
   color: #6c757d;
   border: .0625rem solid #6c757d;
+}
+
+.ms-card-data{
+  width: 100%;
 }
